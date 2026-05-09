@@ -5,7 +5,9 @@ class student:
     def __init__(self,name,age):
         self.name=name
         self.age=age
-
+# Les adresses ne sont pas très utiles ,et nous pouvons
+#controler le comportement des conversions de classes en chaines
+#de caracteres en utilisant la méthode str
     def __str__(self):
         return f"name={self.name},age={self.age}"
     #affchage
